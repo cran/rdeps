@@ -1,0 +1,16 @@
+b902429a60e22f9f86a440f88286d307 *DESCRIPTION
+522bb53108fbb79a4ebc0f624703f6ff *NAMESPACE
+ee9ea141eb400822a179b02e83f3a3df *NEWS.md
+568b86827efebcfa800f7a388cbd0aa0 *R/add_deps.R
+f6fd4746ab1fb552aeccd9b1fa8ff95c *R/rdeps-package.R
+8dc7dabdaec947bf9b5ffac1e5a04333 *R/utils-deps.R
+5cd325b06f5e5aad6bdf964cacf7869f *R/utils-io.R
+51738288f851c527507c8762b1b69e7a *R/utils-msg.R
+16d30707305cd2b16cbffd5f82bd9314 *R/utils-proj.R
+1a6794318d6159e49d2482b4f21de81d *README.md
+1cca707dd4ae4bf325ba473cf815eb12 *inst/CITATION
+87a60a5b657956a6656d83b904a1dc2a *inst/package-sticker/logo.png
+d15f9cd8d92fda14e3ac51cf050c7fdd *inst/package-sticker/package-sticker.R
+e13bd5051c57a0c4edeb5a0a3094adb9 *man/add_deps.Rd
+22041d424252222f730cc0114acd17bc *man/figures/logo.png
+9e355efdb42d4e80f56eee7d33177627 *man/rdeps-package.Rd
