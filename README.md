@@ -4,8 +4,9 @@
 # rdeps <img src="man/figures/logo.png" align="right" style="float:right; height:120px;"/>
 
 <!-- badges: start -->
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/rdeps)](https://CRAN.R-project.org/package=rdeps) -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/rdeps)](https://CRAN.R-project.org/package=rdeps)
 [![R CMD
 Check](https://github.com/frbcesab/rdeps/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/frbcesab/rdeps/actions/workflows/R-CMD-check.yaml)
 [![Website](https://github.com/frbcesab/rdeps/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/frbcesab/rdeps/actions/workflows/pkgdown.yaml)
@@ -42,15 +43,23 @@ Different types of dependencies are handled:
 - if the package is called with `library(foo)` or `require(foo)`, it
   will be added to the section **Depends** of the `DESCRIPTION` file
   (except for vignettes and tests);
-- if the package is called with `foo::bar()`, it will be added to the
-  section **Imports** of the `DESCRIPTION` file (except for vignettes
-  and tests);
+- if the package is called with `foo::bar()` or `use("foo", "bar")`, it
+  will be added to the section **Imports** of the `DESCRIPTION` file
+  (except for vignettes and tests);
 - if the package is only used in vignettes or tests, it will be added to
   the section **Suggests** of the `DESCRIPTION` file.
 
 ## Installation
 
-You can install the development version from
+You can install the stable version from
+[CRAN](https://cran.r-project.org/) with:
+
+``` r
+## Install stable version of < rdeps > from CRAN ----
+install.packages("rdeps")
+```
+
+Or you can install the development version from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -84,8 +93,8 @@ the function
 
 Please cite `rdeps` as:
 
-> Casajus Nicolas (2024) rdeps: An R package to identify external
-> packages used in a project. R package version 0.2,
+> Casajus Nicolas (2025) rdeps: An R package to identify external
+> packages used in a project. R package version 0.3,
 > <https://github.com/frbcesab/rdeps/>.
 
 ## Contributing

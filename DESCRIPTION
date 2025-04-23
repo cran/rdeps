@@ -1,7 +1,7 @@
 Package: rdeps
 Type: Package
 Title: Identify External Packages Used in a Project
-Version: 0.2
+Version: 0.3
 Authors@R: c(
     person(given   = "Nicolas",
            family  = "Casajus",
@@ -10,19 +10,19 @@ Authors@R: c(
            comment = c(ORCID = "0000-0002-5537-5294")))
 Description: Screens all '.R', '.Rmd', and '.qmd' files to extract the name of
     packages used in a project. This package detects packages called with 
-    'library(foo)', 'require(foo)', and 'foo::bar()' and adds these 
-    dependencies in the DESCRIPTION file in the sections Depends, Imports, and 
-    Suggests.
+    'library(foo)', 'require(foo)', 'foo::bar()' and 'use("foo", "bar")' and 
+    adds these dependencies in the DESCRIPTION file in the sections Depends, 
+    Imports, and Suggests.
 URL: https://github.com/frbcesab/rdeps
 BugReports: https://github.com/frbcesab/rdeps/issues
 License: GPL (>= 2)
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports: cli, utils
 NeedsCompilation: no
-Packaged: 2024-02-01 11:48:55 UTC; Nicolas
+Packaged: 2025-04-23 08:07:14 UTC; nicolas
 Author: Nicolas Casajus [aut, cre, cph]
     (<https://orcid.org/0000-0002-5537-5294>)
 Maintainer: Nicolas Casajus <nicolas.casajus@fondationbiodiversite.fr>
 Repository: CRAN
-Date/Publication: 2024-02-02 19:40:07 UTC
+Date/Publication: 2025-04-23 08:20:02 UTC
